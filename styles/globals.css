@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 90%;
+
+    --primary: 0, 0%, 0%;
+    --secondary: 0, 0%, 10%;
+
+    /* scroll-behavior: smooth; */
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+
+    --primary: 0, 0%, 100%;
+    --secondary: 0, 0%, 90%;
+  }
+}
+
+.grid-area-custom {
+  grid-area: 1 / 1 / -1 / 7;
+}

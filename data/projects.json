@@ -1,0 +1,68 @@
+[
+  {
+    "title": "SpendWise",
+    "description": "description",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  },
+  {
+    "title": "Pearl Diver Game",
+    "description": "A 2D platform game built using HTML, CSS and JavaScript",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  },
+  {
+    "title": "Movie Database",
+    "description": "A RESTful MVC API that fetches and filters Movies from a large database",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  }
+]
