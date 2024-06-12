@@ -10,3 +10,5 @@ export type Post = {
   excerpt: string
   preview?: boolean
 }
+
+export type Project = {}

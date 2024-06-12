@@ -18,7 +18,7 @@ export default function HeroPost({
   excerpt,
 }: HeroPostProps) {
   return (
-    <section className="flex justify-center w-full border p-4 rounded-xl shadow-lg">
+    <section className="flex justify-center w-full border border-tertiary p-4 rounded-xl shadow-lg">
       <Link href={`/blog/${slug}`}>
         <Image
           src={coverImage}

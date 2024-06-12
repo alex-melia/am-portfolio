@@ -1,0 +1,107 @@
+[
+  {
+    "title": "KickTalk - MERN App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti repellat ad in, perspiciatis porro quam adipisci vero, dignissimos nemo, iusto consequuntur cupiditate maiores cumque veritatis. Doloribus esse eveniet quaerat!",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
+    "technologies": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Redis"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  },
+  {
+    "title": "E-Barter - Microservices Web App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti repellat ad in, perspiciatis porro quam adipisci vero, dignissimos nemo, iusto consequuntur cupiditate maiores cumque veritatis. Doloribus esse eveniet quaerat!",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "NGINX"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  },
+  {
+    "title": "BlogAbout - Serverless Blogging App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti repellat ad in, perspiciatis porro quam adipisci vero, dignissimos nemo, iusto consequuntur cupiditate maiores cumque veritatis. Doloribus esse eveniet quaerat!",
+    "image": "/blogabout.png",
+    "url": "https://kicktalk-client.vercel.app",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "NextAuth"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "link": "www.github.com"
+      },
+      {
+        "type": "site",
+        "link": "www.bbc.com"
+      }
+    ]
+  }
+]

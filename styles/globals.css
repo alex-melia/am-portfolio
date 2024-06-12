@@ -8,8 +8,7 @@
 
     --primary: 0, 0%, 0%;
     --secondary: 0, 0%, 10%;
-
-    /* scroll-behavior: smooth; */
+    --tertiary: 0, 0%, 98%;
   }
 
   .dark {
@@ -17,6 +16,7 @@
 
     --primary: 0, 0%, 100%;
     --secondary: 0, 0%, 90%;
+    --tertiary: 0, 0%, 15%;
   }
 }
 

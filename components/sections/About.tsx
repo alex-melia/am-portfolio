@@ -49,55 +49,55 @@ export default function About() {
 
       <h2 className="text-lg font-bold mt-12">Skills</h2>
       <div className="flex gap-2">
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoJavascript size={32} color="#F7DF1E" />
-          <p className="text-primary">JavaScript</p>
+          <p className="text-base">JavaScript</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl ">
           <BiLogoTypescript size={32} color="#3178C6" />
-          <p className="text-primary">TypeScript</p>
+          <p className="text-base">TypeScript</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoReact size={32} color="#61DAFB" />
           <p className="text-base">React.js</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoNodejs size={32} color="#339933" />
           <p className="text-base">Node.js</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <RiNextjsFill size={32} color="#000000" />
           <p className="text-base">Next.js</p>
         </div>
       </div>
       <div className="flex gap-2">
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <SiExpress size={32} color="#000000" />
           <p className="text-base">Express.js</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoMongodb size={32} color="#47A248" />
           <p className="text-base">MongoDB</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoPostgresql size={32} color="#336791" />
           <p className="text-base">PostgreSQL</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <SiMysql size={32} color="#E76F00" />
           <p className="text-base">MySQL</p>
         </div>
       </div>
       <div className="flex gap-2">
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <FaGitAlt size={32} color="#F05032" />
           <p className="text-base">git</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <BiLogoDocker size={32} color="#2496ED" />
           <p className="text-base">Docker</p>
         </div>
-        <div className="flex items-center gap-2 border w-fit p-1.5 rounded-xl bg-gray-50">
+        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
           <SiKubernetes size={32} color="#326CE5" />
           <p className="text-base">Kubernetes</p>
         </div>

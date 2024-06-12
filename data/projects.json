@@ -1,7 +1,121 @@
 [
   {
+    "title": "KickTalk - MERN App",
+    "description": "A full stack social media web app inspired by Twitter. Share your thoughts with fans, comment on the latest fixtures, have private chats with like-minded people, view player statistics and enjoy real-time fixture data!",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
+    "technologies": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Redis"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "http://www.github.com"
+      },
+      {
+        "type": "site",
+        "url": "https://kicktalk-client.vercel.app"
+      },
+      {
+        "type": "blog",
+        "url": "http://localhost:3000/blog/mern-app"
+      }
+    ]
+  },
+  {
+    "title": "E-Barter - Microservices Web App",
+    "description": "A batering application to trade goods and services. List any unwanted items or a service you can provide, send and receive trade offers and find your perfect bartering exchange!",
+    "image": "/ebarter.png",
+    "url": "http://www.ebarter-app-project.xyz/",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Nginx"
+      },
+      {
+        "name": "AWS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "www.github.com"
+      },
+      {
+        "type": "site",
+        "url": "www.bbc.com"
+      }
+    ]
+  },
+  {
+    "title": "BlogAbout - Serverless Blogging App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti repellat ad in, perspiciatis porro quam adipisci vero, dignissimos nemo, iusto consequuntur cupiditate maiores cumque veritatis. Doloribus esse eveniet quaerat!",
+    "image": "/blogabout.png",
+    "url": "https://blogabout-app.vercel.app",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "NextAuth"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "www.github.com"
+      },
+      {
+        "type": "site",
+        "url": "www.bbc.com"
+      }
+    ]
+  },
+  {
     "title": "SpendWise",
     "description": "description",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
     "technologies": [
       {
         "name": "Next.js"
@@ -13,17 +127,19 @@
     "links": [
       {
         "type": "github",
-        "link": "www.github.com"
+        "url": "www.github.com"
       },
       {
         "type": "site",
-        "link": "www.bbc.com"
+        "url": "www.bbc.com"
       }
     ]
   },
   {
     "title": "Pearl Diver Game",
     "description": "A 2D platform game built using HTML, CSS and JavaScript",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
     "technologies": [
       {
         "name": "Next.js"
@@ -35,17 +151,19 @@
     "links": [
       {
         "type": "github",
-        "link": "www.github.com"
+        "url": "www.github.com"
       },
       {
         "type": "site",
-        "link": "www.bbc.com"
+        "url": "www.bbc.com"
       }
     ]
   },
   {
     "title": "Movie Database",
     "description": "A RESTful MVC API that fetches and filters Movies from a large database",
+    "image": "/kicktalk.png",
+    "url": "https://kicktalk-client.vercel.app",
     "technologies": [
       {
         "name": "Next.js"
@@ -57,11 +175,11 @@
     "links": [
       {
         "type": "github",
-        "link": "www.github.com"
+        "url": "www.github.com"
       },
       {
         "type": "site",
-        "link": "www.bbc.com"
+        "url": "www.bbc.com"
       }
     ]
   }

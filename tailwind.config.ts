@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss"
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,10 +18,12 @@ const config: Config = {
     extend: {
       colors: {
         background: "hsl(var(--background) / <alpha-value>)",
+        tertiary: "hsl(var(--tertiary))",
       },
       textColor: {
         primary: "hsl(var(--primary))",
         secondary: "hsl(var(--secondary))",
+        tertiary: "hsl(var(--tertiary))",
       },
       fontSize: {
         base: "1.4rem",

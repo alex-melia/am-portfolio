@@ -8,7 +8,7 @@ export default function Contact() {
         How do you take your tea? ☕
       </h1>
       <p className="text-base">Feel free to shoot me a message whenever!</p>
-      <p className="p-2 border rounded-xl cursor-pointer text-lg">
+      <p className="p-2 border dark:border-tertiary bg-tertiary rounded-xl cursor-pointer text-lg">
         <a href="mailto:alexmelia41@gmail.com">✉️ Get In Touch</a>
       </p>
     </section>

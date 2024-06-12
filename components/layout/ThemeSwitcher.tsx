@@ -29,7 +29,7 @@ export default function ThemeSwitcher() {
     return (
       <FiSun
         size={46}
-        className="hover:bg-gray-100 p-2 rounded-lg transition ease-in-out-1"
+        className="hover:bg-tertiary p-2 rounded-lg transition ease-in-out-1"
         onClick={() => setTheme("light")}
       />
     )
