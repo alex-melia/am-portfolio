@@ -30,11 +30,12 @@ export default function ProjectHero({
   return (
     <>
       {imagePosition === "left" ? (
-        <div className="grid grid-cols-[3fr,2fr] gap-8 p-8 rounded-xl border dark:border-tertiary dark:shadow-tertiary shadow-lg">
+        <div className="flex flex-col lg:grid grid-cols-[3fr,2fr] gap-8 p-8 rounded-xl border dark:border-tertiary dark:shadow-tertiary shadow-lg">
           <a href={project.url || ""}>
             <Image
               src={project.image}
               alt="KickTalk image"
+              layout="responsive"
               width={800}
               height={1}
             />
@@ -47,14 +48,14 @@ export default function ProjectHero({
             <div className="bg-tertiary p-2 rounded-sm shadow-sm">
               <p>{project.description}</p>
             </div>
-            <div className="grid grid-cols-4 justify-between place-items-center gap-2">
+            <div className="grid grid-cols-3 sm:grid-cols-4 justify-between place-items-center gap-2">
               {project.technologies.map((technology: any) => (
                 <>
                   <p>{technology.name}</p>
                 </>
               ))}
             </div>
-            <div className="grid grid-cols-4 ml-12 justify-between place-items-center gap-2">
+            <div className="grid grid-cols-3 ml-12 justify-between place-items-center gap-2">
               {project.links.map((link: any) => (
                 <>
                   <a href={`${link.url}`}>{getIcon(link.type)}</a>
@@ -64,7 +65,15 @@ export default function ProjectHero({
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-[2fr,3fr] gap-8 p-8 rounded-xl border dark:border-tertiary dark:shadow-tertiary shadow-lg">
+        <div className="flex flex-col lg:grid grid-cols-[2fr,3fr] gap-8 p-8 rounded-xl border dark:border-tertiary dark:shadow-tertiary shadow-lg">
+          <a className="sm:hidden" href={project.url || ""}>
+            <Image
+              src={project.image}
+              alt="KickTalk image"
+              width={800}
+              height={1}
+            />
+          </a>
           <div className="flex flex-col gap-8 text-right">
             <div className="flex flex-col text-left">
               <p className="font-light text-lg">Featured Project</p>
@@ -73,7 +82,7 @@ export default function ProjectHero({
             <div className="bg-tertiary p-2 rounded-sm shadow-sm text-left">
               <p>{project.description}</p>
             </div>
-            <div className="grid grid-cols-4 justify-between place-items-center gap-2">
+            <div className="grid grid-cols-3 sm:grid-cols-4 justify-between place-items-center gap-2">
               {project.technologies.map((technology: any) => (
                 <>
                   <p>{technology.name}</p>
@@ -88,7 +97,7 @@ export default function ProjectHero({
               ))}
             </div>
           </div>
-          <a href={project.url || ""}>
+          <a className="hidden sm:block" href={project.url || ""}>
             <Image
               src={project.image}
               alt="KickTalk image"

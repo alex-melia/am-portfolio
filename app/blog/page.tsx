@@ -12,9 +12,11 @@ export default function BlogPage() {
   console.log(allPosts)
 
   return (
-    <main className="container min-h-screen">
-      <h1 className="text-center text-4xl font-semibold my-12">Blog</h1>
-      <div className="flex flex-col gap-4">
+    <main className="container min-h-screen mb-24">
+      <h1 className="text-center text-4xl font-semibold mt-24 mb-12">
+        I also write stuff.
+      </h1>
+      <div className="flex flex-col gap-12">
         <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}

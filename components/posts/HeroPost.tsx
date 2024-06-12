@@ -26,7 +26,7 @@ export default function HeroPost({
           width={1000}
           height={1}
           priority={false}
-          className="mb-4"
+          className="mx-auto mb-4"
         />
         <div className="flex flex-col gap-2">
           <p className="text-2xl font-bold">{title}</p>

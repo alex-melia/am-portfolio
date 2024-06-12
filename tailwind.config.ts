@@ -32,6 +32,10 @@ const config: Config = {
         "2xl": "2.4rem",
         "5xl": "4rem",
       },
+      screens: {
+        md: "820px",
+        lg: "1040px",
+      },
       // backgroundImage: {
       //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       //   "gradient-conic":
