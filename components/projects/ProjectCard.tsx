@@ -16,8 +16,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex justify-between mb-4">
         <BiFolder size={32} />
         <div className="flex items-center gap-2">
-          {project.links.map((link: any) => (
-            <a href={link.link}>
+          {project.links.map((link: any, i: number) => (
+            <a key={i} href={link.link}>
               {link.type === "github" ? (
                 <BiLogoGithub size={32} />
               ) : (
@@ -31,8 +31,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <p className="text-lg font-semibold">{project.title}</p>
         <p className="text-sm font-light">{project.description}</p>
         <div className="grid grid-flow-auto grid-cols-4 place-items-center gap-2">
-          {project.technologies.map((technology: any) => (
-            <p>{technology.name}</p>
+          {project.technologies.map((technology: any, i: number) => (
+            <p key={i}>{technology.name}</p>
           ))}
         </div>
       </div>

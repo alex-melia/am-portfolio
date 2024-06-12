@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects" className="sm:p-12 pt-12 min-h-screen">
       <h1 className="text-center text-xl sm:text-2xl font-bold mb-12">
-        Some Things I've Built
+        Some Things I&apos;ve Built
       </h1>
       <div className="flex flex-col gap-24">
         <ProjectHero imagePosition="left" project={projects[0]} />
@@ -14,8 +14,8 @@ export default function Projects() {
         <ProjectHero imagePosition="left" project={projects[2]} />
         <p className="my-24 text-center text-xl font-bold">Other Projects</p>
         <div className="flex flex-col md:grid grid-flow-auto grid-cols-3 gap-8">
-          {projects.slice(3).map((project) => (
-            <ProjectCard project={project} />
+          {projects.slice(3).map((project, i) => (
+            <ProjectCard key={i} project={project} />
           ))}
         </div>
       </div>

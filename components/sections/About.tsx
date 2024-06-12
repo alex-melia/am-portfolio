@@ -32,7 +32,7 @@ export default function About() {
             />
           </div>
           <p className="text-md text-center sm:text-left sm:text-xl font-light">
-            👋 Hi, I'm Alex! Welcome to my portfolio site!
+            👋 Hi, I&apos;m Alex! Welcome to my portfolio site!
           </p>
         </div>
         <div className="hidden sm:block">
