@@ -52,7 +52,7 @@ export default function About() {
           industry
         </p>
         <p className="text-base sm:text-lg text-secondary">
-          Passionate about creating solutions to enhance peoples daily lives
+          Identifier of problems, creator of solutions.
         </p>
         <p className="text-base sm:text-lg text-secondary">
           Currently working on personal projects
