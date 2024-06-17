@@ -30,6 +30,7 @@ const config: Config = {
         lg: "1.6rem",
         xl: "1.8rem",
         "2xl": "2.4rem",
+        "4xl": "3.75rem",
         "5xl": "4rem",
       },
       screens: {

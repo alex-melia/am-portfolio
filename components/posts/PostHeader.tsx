@@ -16,7 +16,13 @@ export default function PostHeader({
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <Image alt="Cover image" src={coverImage} width={1300} height={44} />
+      <Image
+        alt="Cover image"
+        src={coverImage}
+        width={1300}
+        height={44}
+        className="my-4 sm:my-12"
+      />
       <DateFormatter dateString={date} />
     </>
   )

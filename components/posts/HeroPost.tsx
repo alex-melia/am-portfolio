@@ -29,7 +29,7 @@ export default function HeroPost({
           className="mx-auto mb-4"
         />
         <div className="flex flex-col gap-2">
-          <p className="text-2xl font-bold">{title}</p>
+          <p className="text-lg sm:text-2xl font-bold">{title}</p>
           <p className="text-md font-light">{excerpt}</p>
           <DateFormatter dateString={date} />
         </div>

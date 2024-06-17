@@ -87,7 +87,7 @@
   },
   {
     "title": "BlogAbout - Serverless Blogging App",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti repellat ad in, perspiciatis porro quam adipisci vero, dignissimos nemo, iusto consequuntur cupiditate maiores cumque veritatis. Doloribus esse eveniet quaerat!",
+    "description": "A serverless blogging site where you can blog about anything. Write a blog post in Markdown and have it instantly formatted into a blog post!",
     "image": "/blogabout.png",
     "url": "https://blogabout-app.vercel.app",
     "technologies": [
@@ -121,7 +121,7 @@
   },
   {
     "title": "SpendWise",
-    "description": "description",
+    "description": "Stay tuned! This project is currently being developed.",
     "image": "/kicktalk.png",
     "url": "https://kicktalk-client.vercel.app",
     "technologies": [
@@ -129,7 +129,13 @@
         "name": "Next.js"
       },
       {
-        "name": "Node.js"
+        "name": "NextAuth"
+      },
+      {
+        "name": "Prisma"
+      },
+      {
+        "name": "TailwindCSS"
       }
     ]
   },

@@ -37,7 +37,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex flex-col gap-4">
         <p className="text-lg font-semibold">{project.title}</p>
         <p className="text-sm font-light">{project.description}</p>
-        <div className="grid grid-flow-auto grid-cols-4 place-items-center gap-2">
+        <div className="flex flex-wrap justify-center gap-4">
           {project.technologies.map((technology: any, i: number) => (
             <p key={i}>{technology.name}</p>
           ))}

@@ -12,6 +12,7 @@ import { SiMysql } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
 import { BiLogoDocker } from "react-icons/bi"
 import { SiKubernetes } from "react-icons/si"
+import Skill from "../layout/Skill"
 
 export default function About() {
   return (
@@ -48,8 +49,8 @@ export default function About() {
 
       <div className="flex flex-col gap-8 max-w-[800px] mt-12">
         <p className="text-base sm:text-lg text-secondary">
-          Recent Software Engineering graduate seeking opportunities within the
-          industry
+          Recent Software Engineering graduate seeking opportunities as a Junior
+          Developer
         </p>
         <p className="text-base sm:text-lg text-secondary">
           Identifier of problems, creator of solutions.
@@ -60,61 +61,56 @@ export default function About() {
       </div>
 
       <h2 className="text-lg font-bold mt-12">Skills</h2>
-      <div className="grid grid-cols-3 grid-rows-[repeat(auto-fit, minmax(100px, 1fr))] gap-2">
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoJavascript className="w-4 h-4" color="#F7DF1E" />
-          <p className="text-sm sm:text-base">JavaScript</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl ">
-          <BiLogoTypescript className="w-4 h-4" color="#3178C6" />
-          <p className="text-sm sm:text-base">TypeScript</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoReact className="w-4 h-4" color="#61DAFB" />
-          <p className="text-sm sm:text-base">React.js</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoNodejs className="w-4 h-4" color="#339933" />
-          <p className="text-sm sm:text-base">Node.js</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <RiNextjsFill className="w-4 h-4" color="#000000" />
-          <p className="text-sm sm:text-base">Next.js</p>
-        </div>
-        {/* </div> */}
-        {/* <div className="flex w-full gap-2"> */}
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <SiExpress className="w-4 h-4" color="#000000" />
-          <p className="text-sm sm:text-base">Express.js</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoMongodb className="w-4 h-4" color="#47A248" />
-          <p className="text-sm sm:text-base">MongoDB</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoPostgresql className="w-4 h-4" color="#336791" />
-          <p className="text-sm sm:text-base">PostgreSQL</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <SiMysql className="w-4 h-4" color="#E76F00" />
-          <p className="text-sm sm:text-base">MySQL</p>
-        </div>
-        {/* </div> */}
-        {/* <div className="flex w-full gap-2"> */}
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <FaGitAlt className="w-4 h-4" color="#F05032" />
-          <p className="text-sm sm:text-base">git</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <BiLogoDocker className="w-4 h-4" color="#2496ED" />
-          <p className="text-sm sm:text-base">Docker</p>
-        </div>
-        <div className="flex bg-tertiary dark:border-tertiary items-center gap-2 border w-fit p-1.5 rounded-xl">
-          <SiKubernetes className="w-4 h-4" color="#326CE5" />
-          <p className="text-sm sm:text-base">Kubernetes</p>
-        </div>
+      <div className="flex flex-wrap gap-4">
+        <Skill
+          icon={<BiLogoJavascript className="w-8 h-8" color="#F7DF1E" />}
+          name="JavaScript"
+        />
+        <Skill
+          icon={<BiLogoTypescript className="w-8 h-8" color="#3178C6" />}
+          name="TypeScript"
+        />
+        <Skill
+          icon={<BiLogoReact className="w-8 h-8" color="#61DAFB" />}
+          name="React"
+        />
+        <Skill
+          icon={<BiLogoNodejs className="w-8 h-8" color="#339933" />}
+          name="Node.js"
+        />
+        <Skill
+          icon={<RiNextjsFill className="w-8 h-8" color="#000000" />}
+          name="Next.js"
+        />
+        <Skill
+          icon={<SiExpress className="w-8 h-8" color="#000000" />}
+          name="Express.js"
+        />
+        <Skill
+          icon={<BiLogoMongodb className="w-8 h-8" color="#47A248" />}
+          name="MongoDB"
+        />
+        <Skill
+          icon={<BiLogoPostgresql className="w-8 h-8" color="#336791" />}
+          name="PostgreSQL"
+        />
+        <Skill
+          icon={<SiMysql className="w-8 h-8" color="#E76F00" />}
+          name="MySQL"
+        />
+        <Skill
+          icon={<FaGitAlt className="w-8 h-8" color="#F05032" />}
+          name="git"
+        />
+        <Skill
+          icon={<BiLogoDocker className="w-8 h-8" color="#2496ED" />}
+          name="Docker"
+        />
+        <Skill
+          icon={<SiKubernetes className="w-8 h-8" color="#326CE5" />}
+          name="Kubernetes"
+        />
       </div>
-      {/* </div> */}
     </section>
   )
 }

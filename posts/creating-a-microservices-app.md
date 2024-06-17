@@ -1,7 +1,7 @@
 ---
 title: "Building a Microservices Web App with CI/CD, Docker & Kubernetes"
 excerpt: "E-Barter is a web application for bartering of good and services."
-coverImage: "/assets/blog/second-post/cover.jpg"
+coverImage: "/assets/blog/second-post/ebarter.png"
 date: "2024-05-27T05:35:07.322Z"
 ---
 
@@ -24,7 +24,7 @@ To achieve the objectives outlined in the project brief, I decided to create 6 a
 - **Trades** Manage trades between users.
 - **Chats** Provides chat functionality.
 
-A directory for containing all kubernetes deployment files was also necessary.
+A directory for containing all Kubernetes deployment files was also necessary.
 
 ![Ebarter File Structure](/assets/blog/second-post/filestructure.png "File Structure")
 
@@ -167,4 +167,10 @@ I used Skaffold to define the images to be used in development or production.
 
 ### **Conclusion**
 
-Each microservice is a Node.js application and containerized with Docker.
+Overall, I was happy with what I managed to achieve. All objectives outlined in the project brief were met and the site functions as intended and serves its purpose as a bartering platform.
+
+I was particularly pleased with the robustness of the application. I developed an application that catered for multiple environments, had a CI/CD pipeline to automate the process of deployment and a solid Kubernetes cluster which had pods that were communicable.
+
+Looking back, one aspect of the project that could be improved is the user interface. Having no experience in developing front-end interfaces at the time, I opted to use Material UI. Although the components were able to deliver a UI that was functional, it ultimately was not responsive which limits usability.
+
+Also, to improve the platform, a localization feature could be enabled. This could be utilized to only display items that are within a reasonable distance to users or inform users of the items location so they can filter through them. Given that the platform has no way of facilitating the middleman role in a trade, the idea of trading items over a long distance, particularly a service, seems unreasonable.
