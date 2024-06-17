@@ -13,5 +13,5 @@ export type Project = {
   image: string
   url: string
   technologies: Technology[]
-  links: Link[]
+  links?: Link[]
 }
