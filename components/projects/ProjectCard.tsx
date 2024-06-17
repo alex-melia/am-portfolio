@@ -1,8 +1,4 @@
-import {
-  BiFolder,
-  BiLogoGithub,
-  BiSolidRightTopArrowCircle,
-} from "react-icons/bi"
+import { BiFolder } from "react-icons/bi"
 import { FaGithub, FaRegNewspaper } from "react-icons/fa"
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 

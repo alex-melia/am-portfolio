@@ -56,7 +56,7 @@ export default function ProjectHero({
               ))}
             </div>
             <div className="grid grid-cols-3 ml-12 justify-between place-items-center gap-2">
-              {project.links.map((link: any) => (
+              {project.links?.map((link: any) => (
                 <>
                   <a href={`${link.url}`}>{getIcon(link.type)}</a>
                 </>
@@ -90,7 +90,7 @@ export default function ProjectHero({
               ))}
             </div>
             <div className="grid grid-cols-4 ml-12 justify-between place-items-center gap-2">
-              {project.links.map((link: any) => (
+              {project.links?.map((link: any) => (
                 <>
                   <a href={`${link.url}`}>{getIcon(link.type)}</a>
                 </>
