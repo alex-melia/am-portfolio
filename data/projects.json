@@ -27,7 +27,7 @@
     "links": [
       {
         "type": "github",
-        "url": "http://www.github.com"
+        "url": "https://github.com/alex-melia/kicktalk-app"
       },
       {
         "type": "site",
@@ -35,7 +35,7 @@
       },
       {
         "type": "blog",
-        "url": "http://localhost:3000/blog/mern-app"
+        "url": "https://alexmelia.dev/kicktalk-app/full-stack-mern-app"
       }
     ]
   },
@@ -73,11 +73,15 @@
     "links": [
       {
         "type": "github",
-        "url": "www.github.com"
+        "url": "https://github.com/alex-melia/ebarter-app"
       },
       {
         "type": "site",
-        "url": "www.bbc.com"
+        "url": "http://www.ebarter-app-project.xyz"
+      },
+      {
+        "type": "blog",
+        "url": "https://alexmelia.dev/kicktalk-app/creating-a-microservices-app"
       }
     ]
   },
@@ -103,11 +107,15 @@
     "links": [
       {
         "type": "github",
-        "url": "www.github.com"
+        "url": "https://github.com/alex-melia/blogabout"
       },
       {
         "type": "site",
-        "url": "www.bbc.com"
+        "url": "https://blogabout.vercel.app"
+      },
+      {
+        "type": "blog",
+        "url": "https://alexmelia.dev/kicktalk-app/serverless-web-app-nextjs"
       }
     ]
   },
@@ -123,16 +131,6 @@
       {
         "name": "Node.js"
       }
-    ],
-    "links": [
-      {
-        "type": "github",
-        "url": "www.github.com"
-      },
-      {
-        "type": "site",
-        "url": "www.bbc.com"
-      }
     ]
   },
   {
@@ -146,16 +144,6 @@
       },
       {
         "name": "Node.js"
-      }
-    ],
-    "links": [
-      {
-        "type": "github",
-        "url": "www.github.com"
-      },
-      {
-        "type": "site",
-        "url": "www.bbc.com"
       }
     ]
   },
@@ -171,15 +159,33 @@
       {
         "name": "Node.js"
       }
+    ]
+  },
+  {
+    "title": "Applify - Website Showcase",
+    "description": "A website to accompany my blog post about designing websites that use best practices",
+    "image": "/kicktalk.png",
+    "url": "https://howto-site-demo.vercel.app/",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "TailwindCSS"
+      }
     ],
     "links": [
       {
         "type": "github",
-        "url": "www.github.com"
+        "url": "https://github.com/alex-melia/site-demo"
       },
       {
         "type": "site",
-        "url": "www.bbc.com"
+        "url": "https://howto-site-demo.vercel.app"
+      },
+      {
+        "type": "blog",
+        "url": "https://alexmelia.dev/designing-a-great-website"
       }
     ]
   }

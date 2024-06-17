@@ -22,5 +22,10 @@
 }
 
 .markdown code {
-  @apply bg-gray-50 p-2;
+  @apply bg-gray-100 p-2;
+  @apply text-black;
+}
+
+.markdown a {
+  @apply text-blue-500;
 }

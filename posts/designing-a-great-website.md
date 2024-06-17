@@ -1,7 +1,7 @@
 ---
 title: "How to Design a Great Website"
 excerpt: "Crafting beautifully designed and well structured websites that convert is not just about creativity, but rules..."
-coverImage: "/assets/how-to-create/mern-app/applify.png"
+coverImage: "/assets/blog/how-to-create/applify.png"
 date: "2024-06-16"
 ---
 
