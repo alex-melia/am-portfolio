@@ -35,7 +35,7 @@
       },
       {
         "type": "blog",
-        "url": "https://alexmelia.dev/kicktalk-app/full-stack-mern-app"
+        "url": "https://alexmelia.dev/blog/full-stack-mern-app"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "type": "blog",
-        "url": "https://alexmelia.dev/kicktalk-app/creating-a-microservices-app"
+        "url": "https://alexmelia.dev/blog/creating-a-microservices-app"
       }
     ]
   },
@@ -115,7 +115,7 @@
       },
       {
         "type": "blog",
-        "url": "https://alexmelia.dev/kicktalk-app/serverless-web-app-nextjs"
+        "url": "https://alexmelia.dev/blog/serverless-web-app-nextjs"
       }
     ]
   },
@@ -191,7 +191,7 @@
       },
       {
         "type": "blog",
-        "url": "https://alexmelia.dev/designing-a-great-website"
+        "url": "https://alexmelia.dev/blog/designing-a-great-website"
       }
     ]
   }

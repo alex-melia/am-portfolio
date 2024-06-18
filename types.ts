@@ -1,8 +1,8 @@
-type Technology = {
+export type Technology = {
   name: string
 }
 
-type Link = {
+export type Link = {
   type: string
   url: string
 }

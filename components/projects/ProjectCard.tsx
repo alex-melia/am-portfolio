@@ -1,9 +1,10 @@
 import { BiFolder } from "react-icons/bi"
 import { FaGithub, FaRegNewspaper } from "react-icons/fa"
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
+import { Link, Technology, Project } from "@/types"
 
 interface ProjectCardProps {
-  project: any
+  project: Project
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
@@ -27,7 +28,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex justify-between mb-4">
         <BiFolder size={32} />
         <div className="flex items-center gap-4">
-          {project.links?.map((link: any, i: number) => (
+          {project.links?.map((link: Link, i: number) => (
             <a href={`${link.url}`} key={i}>
               {getIcon(link.type)}
             </a>
@@ -38,7 +39,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <p className="text-lg font-semibold">{project.title}</p>
         <p className="text-sm font-light">{project.description}</p>
         <div className="flex flex-wrap justify-center gap-4">
-          {project.technologies.map((technology: any, i: number) => (
+          {project.technologies.map((technology: Technology, i: number) => (
             <p key={i}>{technology.name}</p>
           ))}
         </div>
