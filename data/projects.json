@@ -41,7 +41,7 @@
   },
   {
     "title": "E-Barter - Microservices Web App",
-    "description": "A batering application to trade goods and services. List any unwanted items or a service you can provide, send and receive trade offers and find your perfect bartering exchange!",
+    "description": "A bartering application to trade goods and services. List any unwanted items or a service you can provide, send and receive trade offers and find your perfect bartering exchange!",
     "image": "/ebarter.png",
     "url": "http://www.ebarter-app-project.xyz/",
     "technologies": [
