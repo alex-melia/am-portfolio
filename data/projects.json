@@ -146,10 +146,23 @@
     "url": "https://kicktalk-client.vercel.app",
     "technologies": [
       {
-        "name": "Next.js"
+        "name": "HTML"
       },
       {
-        "name": "Node.js"
+        "name": "CSS"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/alex-melia/pearl-diver-v2"
+      },
+      {
+        "type": "site",
+        "url": "https://pearl-diver.vercel.app"
       }
     ]
   },
