@@ -16,7 +16,7 @@ import Skill from "../layout/Skill"
 
 export default function About() {
   return (
-    <section className="sm:p-12 pt-12 flex flex-col text-left gap-4">
+    <section className="sm:p-12 pt-12 flex flex-col text-left gap-4 animate-fadeInDown">
       <div className="flex flex-col sm:flex-row items-center gap-8">
         <div className="flex flex-col gap-4">
           <h1 className="font-medium text-lg sm:text-2xl text-center sm:text-left">
@@ -24,7 +24,7 @@ export default function About() {
           </h1>
           <div className="sm:hidden mx-24">
             <Image
-              className="rounded-full"
+              className="rounded-full w-full"
               src="/me.jpg"
               alt="My picture"
               layout="responsive"

@@ -1,10 +1,22 @@
+"use client"
+
 import ProjectCard from "../projects/ProjectCard"
 import ProjectHero from "../projects/ProjectHero"
 import projects from "../../data/projects.json"
+import { useIntersectionObserver } from "@/lib/utils"
 
 export default function Projects() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    threshold: 0.1,
+  })
   return (
-    <section id="projects" className="sm:p-12 pt-12 min-h-screen">
+    <section
+      id="projects"
+      ref={ref}
+      className={`sm:p-12 pt-12 min-h-screen ${
+        isIntersecting ? "animate-fadeInDown" : "opacity-0"
+      }`}
+    >
       <h1 className="text-center text-xl sm:text-2xl font-bold mb-12">
         Some Things I&apos;ve Built
       </h1>

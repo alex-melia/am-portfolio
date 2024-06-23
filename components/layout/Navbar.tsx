@@ -27,6 +27,7 @@ export default function Navbar() {
       }
 
       lastScrollY = currentScrollY
+      console.log(lastScrollY)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -55,6 +56,7 @@ export default function Navbar() {
               <Link
                 href="/"
                 className="bg-black dark:bg-white text-white dark:text-black font-semibold px-4 py-1 rounded-xl text-base"
+                onClick={() => setScrollDirection("down")}
               >
                 About
               </Link>
@@ -74,6 +76,7 @@ export default function Navbar() {
               <Link
                 href="/#contact"
                 className="bg-black dark:bg-white text-white dark:text-black font-semibold px-4 py-1 rounded-xl text-base"
+                onClick={() => setScrollDirection("down")}
               >
                 Contact
               </Link>
