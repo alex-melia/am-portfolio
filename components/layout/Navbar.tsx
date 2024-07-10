@@ -27,7 +27,6 @@ export default function Navbar() {
       }
 
       lastScrollY = currentScrollY
-      console.log(lastScrollY)
     }
 
     window.addEventListener("scroll", handleScroll)

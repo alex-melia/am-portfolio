@@ -8,8 +8,6 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-  console.log(project)
-
   function getIcon(type: string) {
     switch (type) {
       case "github":

@@ -1,5 +1,6 @@
-import { Project } from "@/types"
+import { Link, Project, Technology } from "@/types"
 import Image from "next/image"
+import React from "react"
 import {
   FaGithub,
   FaArrowUpRightFromSquare,
@@ -49,17 +50,17 @@ export default function ProjectHero({
               <p>{project.description}</p>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 justify-between place-items-center gap-2">
-              {project.technologies.map((technology: any) => (
-                <>
-                  <p>{technology.name}</p>
-                </>
+              {project.technologies.map((technology: Technology, i: number) => (
+                <React.Fragment key={i}>
+                  <p key={i}>{technology.name}</p>
+                </React.Fragment>
               ))}
             </div>
             <div className="grid grid-cols-3 ml-12 justify-between place-items-center gap-2">
-              {project.links?.map((link: any) => (
-                <>
+              {project.links?.map((link: Link, i: number) => (
+                <React.Fragment key={i}>
                   <a href={`${link.url}`}>{getIcon(link.type)}</a>
-                </>
+                </React.Fragment>
               ))}
             </div>
           </div>
@@ -83,17 +84,17 @@ export default function ProjectHero({
               <p>{project.description}</p>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 justify-between place-items-center gap-2">
-              {project.technologies.map((technology: any) => (
-                <>
+              {project.technologies.map((technology: Technology, i: number) => (
+                <React.Fragment key={i}>
                   <p>{technology.name}</p>
-                </>
+                </React.Fragment>
               ))}
             </div>
             <div className="grid grid-cols-4 ml-12 justify-between place-items-center gap-2">
-              {project.links?.map((link: any) => (
-                <>
+              {project.links?.map((link: Link, i: number) => (
+                <React.Fragment key={i}>
                   <a href={`${link.url}`}>{getIcon(link.type)}</a>
-                </>
+                </React.Fragment>
               ))}
             </div>
           </div>
