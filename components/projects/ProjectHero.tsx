@@ -32,7 +32,7 @@ export default function ProjectHero({
     <>
       {imagePosition === "left" ? (
         <div className="flex flex-col lg:grid grid-cols-[3fr,2fr] gap-8 p-8 rounded-xl border dark:border-tertiary dark:shadow-tertiary shadow-lg">
-          <a href={project.url || ""}>
+          <a className="flex items-center" href={project.url || ""}>
             <Image
               src={project.image}
               alt="KickTalk image"
@@ -98,7 +98,7 @@ export default function ProjectHero({
               ))}
             </div>
           </div>
-          <a className="hidden sm:block" href={project.url || ""}>
+          <a className="hidden sm:flex items-center" href={project.url || ""}>
             <Image
               src={project.image}
               alt="KickTalk image"

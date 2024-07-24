@@ -9,8 +9,6 @@ export default function BlogPage() {
 
   const morePosts = allPosts.slice(1)
 
-  console.log(allPosts)
-
   return (
     <main className="container min-h-screen mb-24">
       <h1 className="text-center text-xl sm:text-4xl font-semibold mt-24 mb-12">

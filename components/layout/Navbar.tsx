@@ -3,7 +3,6 @@
 import Link from "next/link"
 import ThemeSwitcher from "./ThemeSwitcher"
 
-import { FaGithubAlt } from "react-icons/fa"
 import { HiOutlineMenu } from "react-icons/hi"
 import { FaLinkedin } from "react-icons/fa"
 import { FaEnvelope } from "react-icons/fa"
@@ -49,7 +48,7 @@ export default function Navbar() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex flex-col items-center -space-y-2">
               <p className="font-bold text-lg sm:text-xl">Alex Melia</p>
-              <p className="text-sm sm:text-md">web developer</p>
+              <p className="text-sm sm:text-md">maker of things</p>
             </Link>
             <div className="hidden md:flex items-center gap-4">
               <Link

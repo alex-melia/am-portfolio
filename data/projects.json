@@ -40,48 +40,38 @@
     ]
   },
   {
-    "title": "E-Barter - Microservices Web App",
-    "description": "A bartering application to trade goods and services. List any unwanted items or a service you can provide, send and receive trade offers and find your perfect bartering exchange!",
-    "image": "/ebarter.png",
-    "url": "http://www.ebarter-app-project.xyz/",
+    "title": "Dexx - AI Flashcard & Roadmap Generator",
+    "description": "Dexx is a web app that harnesses the power of GPT-4. Generate flashcards and roadmaps based on any topic or subject!",
+    "image": "/dexx.png",
+    "url": "https://dexx-drab.vercel.app",
     "technologies": [
       {
         "name": "Next.js"
       },
       {
-        "name": "Node.js"
+        "name": "Prisma"
       },
       {
-        "name": "MongoDB"
+        "name": "NextAuth"
       },
       {
-        "name": "Express.js"
+        "name": "Shadcn/ui"
       },
       {
-        "name": "Docker"
+        "name": "Supabase"
       },
       {
-        "name": "Kubernetes"
-      },
-      {
-        "name": "Nginx"
-      },
-      {
-        "name": "AWS"
+        "name": "TailwindCSS"
       }
     ],
     "links": [
       {
         "type": "github",
-        "url": "https://github.com/alex-melia/ebarter-app"
+        "url": "https://github.com/alex-melia/dexx"
       },
       {
         "type": "site",
-        "url": "http://www.ebarter-app-project.xyz"
-      },
-      {
-        "type": "blog",
-        "url": "https://alexmelia.dev/blog/creating-a-microservices-app"
+        "url": "https://dexx-drab.vercel.app"
       }
     ]
   },
@@ -136,6 +126,46 @@
       },
       {
         "name": "TailwindCSS"
+      }
+    ]
+  },
+  {
+    "title": "E-Barter - Microservices Web App",
+    "description": "A microservices application to barter goods and services",
+    "image": "/ebarter.png",
+    "url": "http://www.ebarter-app-project.xyz/",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "AWS"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/alex-melia/ebarter-app"
+      },
+      {
+        "type": "site",
+        "url": "http://www.ebarter-app-project.xyz"
+      },
+      {
+        "type": "blog",
+        "url": "https://alexmelia.dev/blog/creating-a-microservices-app"
       }
     ]
   },
