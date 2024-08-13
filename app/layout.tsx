@@ -18,6 +18,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <link rel="icon" href="./me.jpg" sizes="any" />
       <body className={inter.className}>
         <LayoutWrapper>
           {children}

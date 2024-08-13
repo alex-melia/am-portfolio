@@ -1,5 +1,41 @@
 [
   {
+    "title": "Alex Melia AI - Personal AI Chatbot",
+    "description": "A chatbot powered by GPT-4, trained on my own data. Ask me anything!",
+    "image": "/alexmeliaai.png",
+    "url": "https://www.alexmelia.lol",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "FastAPI"
+      },
+      {
+        "name": "LangChain"
+      },
+      {
+        "name": "AWS EC2"
+      },
+      {
+        "name": "Nginx"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/alex-melia/AlexMeliaAI"
+      },
+      {
+        "type": "site",
+        "url": "https://www.alexmelia.lol"
+      }
+    ]
+  },
+  {
     "title": "KickTalk - MERN App",
     "description": "A full stack social media web app inspired by Twitter. Share your thoughts with fans, comment on the latest fixtures, have private chats with like-minded people, view player statistics and enjoy real-time fixture data!",
     "image": "/kicktalk.png",
@@ -110,26 +146,6 @@
     ]
   },
   {
-    "title": "SpendWise",
-    "description": "Stay tuned! This project is currently being developed.",
-    "image": "/kicktalk.png",
-    "url": "https://kicktalk-client.vercel.app",
-    "technologies": [
-      {
-        "name": "Next.js"
-      },
-      {
-        "name": "NextAuth"
-      },
-      {
-        "name": "Prisma"
-      },
-      {
-        "name": "TailwindCSS"
-      }
-    ]
-  },
-  {
     "title": "E-Barter - Microservices Web App",
     "description": "A microservices application to barter goods and services",
     "image": "/ebarter.png",
@@ -193,20 +209,6 @@
       {
         "type": "site",
         "url": "https://pearl-diver.vercel.app"
-      }
-    ]
-  },
-  {
-    "title": "Movie Database",
-    "description": "A RESTful MVC API that fetches and filters Movies from a large database",
-    "image": "/kicktalk.png",
-    "url": "https://kicktalk-client.vercel.app",
-    "technologies": [
-      {
-        "name": "Next.js"
-      },
-      {
-        "name": "Node.js"
       }
     ]
   },
