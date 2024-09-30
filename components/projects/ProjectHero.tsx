@@ -52,7 +52,9 @@ export default function ProjectHero({
             <div className="grid grid-cols-3 sm:grid-cols-4 justify-between place-items-center gap-2">
               {project.technologies.map((technology: Technology, i: number) => (
                 <React.Fragment key={i}>
-                  <p key={i}>{technology.name}</p>
+                  <p className="text-center" key={i}>
+                    {technology.name}
+                  </p>
                 </React.Fragment>
               ))}
             </div>

@@ -24,9 +24,10 @@ export default function Projects() {
         <ProjectHero imagePosition="left" project={projects[0]} />
         <ProjectHero imagePosition="right" project={projects[1]} />
         <ProjectHero imagePosition="left" project={projects[2]} />
+        <ProjectHero imagePosition="right" project={projects[3]} />
         <p className="my-24 text-center text-xl font-bold">Other Projects</p>
         <div className="flex flex-col md:grid grid-flow-auto grid-cols-3 gap-8">
-          {projects.slice(3).map((project, i) => (
+          {projects.slice(4).map((project, i) => (
             <ProjectCard key={i} project={project} />
           ))}
         </div>

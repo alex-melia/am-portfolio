@@ -18,7 +18,7 @@ export default function Contact() {
         How do you take your tea? ☕
       </h1>
       <p className="text-sm sm:text-base text-center">
-        Feel free to shoot me a message whenever!
+        Feel free to get in touch whenever!
       </p>
       <p className="p-2 border dark:border-tertiary bg-tertiary rounded-xl cursor-pointer text-lg">
         <a href="mailto:alexmelia41@gmail.com">✉️ Get In Touch</a>

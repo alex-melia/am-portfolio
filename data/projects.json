@@ -1,5 +1,38 @@
 [
   {
+    "title": "MyAI - Be available anywhere, anytime",
+    "description": "A link-in-bio tool featuring a personalized AI chatbot trained on your own data that acts as you and intelligently responds.",
+    "image": "/myai-screenshot.png",
+    "url": "https://myai.bio",
+    "technologies": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "LangChain"
+      },
+      {
+        "name": "Pinecone"
+      },
+      {
+        "name": "Cloudflare Pages"
+      }
+    ],
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/alex-melia/myai"
+      },
+      {
+        "type": "site",
+        "url": "https://myai.bio"
+      }
+    ]
+  },
+  {
     "title": "Alex Melia AI - Personal AI Chatbot",
     "description": "A chatbot powered by GPT-4, trained on my own data. Ask me anything!",
     "image": "/alexmeliaai.png",
